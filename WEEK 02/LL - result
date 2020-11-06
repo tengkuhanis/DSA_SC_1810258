@@ -1,0 +1,76 @@
+[Command: python -u 'C:\Users\USER\Desktop\PYTHON\LL original.py']
+First Linked List Created:
+1 --> 2 --> 3 --> 4
+
+
+Two nodes were added to the tail:
+1 --> 2 --> 3 --> 4 --> 13 --> 3
+
+The length of this linked list:
+6
+
+Index of 12:
+None
+
+Index of 13:
+5
+
+Node 1 were removed. The new linked list is:
+True
+2 --> 3 --> 4 --> 13 --> 3
+
+Node 13 were removed. The new linked list is:
+True
+2 --> 3 --> 4 --> 3
+
+Max number in the LL is:
+4
+
+Min number in the LL is:
+2
+True
+True
+
+Two nodes were pushed. The new LL is:
+2 --> 3 --> 4 --> 3 --> 10 --> 10
+10
+
+One node were popped. The new LL is:
+2 --> 3 --> 4 --> 3 --> 10
+
+Counts of 1, 10 & 3 in the LL respectively is:
+0
+1
+2
+
+The first 2 elements in the LL is:
+2 --> 3
+
+The first 4 elements in the LL is:
+2 --> 3 --> 4 --> 3 --> 10
+pending 1 elements
+
+LL when pushed in O(1):
+11 --> 12 --> 13 --> 2 --> 3 --> 4 --> 3 --> 10 --> 20
+
+LL is reversed by creating a new LL:
+20 --> 10 --> 3 --> 4 --> 3 --> 2 --> 13 --> 12 --> 11
+
+LL is reversed without creating a new LL:
+20 --> 10 --> 3 --> 4 --> 3 --> 2 --> 13 --> 12 --> 11
+
+The reversed LL is copied in a new LL object:
+20 --> 10 --> 3 --> 4 --> 3 --> 2 --> 13 --> 12 --> 11
+
+The Linked List were changed to a List:
+20, 10, 3, 4, 3, 2, 13, 12, 11,
+
+Is the linked list sorted? Yes=True, No=False:
+False
+
+Indexes were swapped. The LL become:
+2 --> 3 --> 3 --> 4 --> 10 --> 11 --> 12 --> 13 --> 20
+
+Is the list sorted? Yes=True, No=False
+True
+[Finished in 0.512s]
